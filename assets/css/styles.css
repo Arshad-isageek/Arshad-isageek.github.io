@@ -1,0 +1,273 @@
+body {
+    color: #f3fcf7;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#contact {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#header {
+    margin-top: 20px;
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#logo img{
+    margin-left: 20px;
+}
+
+#logo img:hover{
+    transform: translateY(-5px);
+}
+
+.sub-title{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    max-width: max-content;
+    margin: 50px auto;
+    padding: 20px 20px 20px 40px;
+    background-color: #0c0a0a;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-35deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.contact-left {
+    border: 1px solid rgb(219, 208, 208);
+    border-radius: 20px;
+    flex-basis: 35%;
+}
+
+.contact-right {
+    border-radius: 20px;
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons-list li {
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #94596b;
+    transform: translateY(-5px);
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #262626;
+    color: #fff;
+}
+  
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.cv-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    margin: 15px;
+    background-color: #ff004f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.cv-style:hover{
+    background-color: #94596b;
+}
+
+
+  
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #5a32ab;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #3c1b7f;
+}
+
+#statusMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.copied-message {
+    font-size: 10px;
+    color: #0c0a0a;
+    display: none;
+    position: fixed;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+#footer {
+    padding: 2em 0;
+    text-align: center;
+}
+
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.741);
+    font-size: 0.8em;
+    line-height: 1em;
+    margin: 2em 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+
+    html{
+        background-color: #0c0a0a;
+    }
+
+    #contact{
+        background-color: #0c0a0a;
+    }
+
+    .sub-title{
+        font-size: 50px;
+    }
+
+    .container{
+        margin-top: 0px;
+        padding-right: 40px;
+        border-radius: 0px;
+    }
+
+    .contact-left {
+        flex-basis: 100%;
+    }
+
+    .contact-right{
+        margin-top: 20px;
+        flex-basis: 100%;
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+
+    .row{
+        text-align: center;
+    }
+
+    .row p{
+        text-align: left;
+    }
+
+    .contact-right img{
+        width: 100%;
+    }
+    
+    button{
+        margin: 10px 0px 10px 20px;
+    }
+}
