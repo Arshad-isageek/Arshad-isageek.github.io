@@ -4227,6 +4227,24 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 1.25em 1em 1.25em;
+				margin: 0 auto;
+				margin-bottom: 2em;
+			}
+
+			.wrapper.style2 {
+				width: 80%;
+				border-radius: 40px;
+			}
+
+			input[type="submit"].primary,
+			input[type="reset"].primary,
+			input[type="button"].primary,
+			.button.primary {
+				background-color: #e44c65;
+				box-shadow: none;
+				width: 40%;
+				border-radius: 10px;
+				color: #ffffff !important;
 			}
 
 		/* Banner */
