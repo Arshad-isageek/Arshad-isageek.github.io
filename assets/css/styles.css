@@ -66,6 +66,7 @@ body {
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: transitionIn 0.75s;
+	opacity: 0.8;
 }
 
 @keyframes transitionIn{
@@ -74,7 +75,7 @@ body {
         transform: rotateX(-35deg);
     }
     to {
-        opacity: 1;
+        opacity: 0.8;
         transform: rotateX(0);
     }
 }
@@ -243,6 +244,7 @@ button:hover {
         margin-top: 0px;
         padding-right: 40px;
         border-radius: 0px;
+	    opacity: 0.8;
     }
 
     .contact-left {
