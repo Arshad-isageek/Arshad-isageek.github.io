@@ -3556,6 +3556,8 @@ input, select, textarea {
 				#banner .content .image img {
 					display: block;
 					width: 100%;
+					-webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+					mask-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 				}
 
 	body.is-touch #banner {
