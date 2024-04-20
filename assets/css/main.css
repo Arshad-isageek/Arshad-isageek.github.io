@@ -3679,6 +3679,7 @@ input, select, textarea {
 		.content header h2:hover{
 			transition: transform 0.3s ease;
 			transform: scale(1.2);
+			cursor: zoom-in;
 		}
 		
 		#banner .content .image{
