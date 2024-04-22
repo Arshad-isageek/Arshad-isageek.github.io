@@ -4033,6 +4033,8 @@ input, select, textarea {
 				z-index: 10001;
 				background: #272833;
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
+				border-radius: 100px;
+				margin-top: 10px;
 			}
 
 				#titleBar .title {
@@ -4058,6 +4060,7 @@ input, select, textarea {
 					width: 90px;
 					outline: 0;
 					border: 0;
+					border-radius: 35px;
 				}
 
 					#titleBar .toggle:before {
