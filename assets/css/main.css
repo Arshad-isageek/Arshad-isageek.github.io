@@ -4060,7 +4060,6 @@ input, select, textarea {
 					width: 90px;
 					outline: 0;
 					border: 0;
-					border-radius: 35px;
 				}
 
 					#titleBar .toggle:before {
@@ -4089,6 +4088,7 @@ input, select, textarea {
 						text-align: center;
 						top: 0;
 						width: 54px;
+						border-radius: 35px;
 					}
 
 			#navPanel {
