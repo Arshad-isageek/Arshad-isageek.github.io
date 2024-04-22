@@ -4114,6 +4114,8 @@ input, select, textarea {
 				z-index: 10002;
 				background: #181920;
 				padding: 0.75em 1.25em;
+				border: 2px solid #e13652;
+				border-radius: 25px;
 			}
 
 				#navPanel .link {
