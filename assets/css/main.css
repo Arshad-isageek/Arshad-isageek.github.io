@@ -3486,9 +3486,9 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #2632ce;
-		/* background-image: url("../../images/ArshadBanner.png"); */
+		background-image: url("../../images/ArshadBer.png");
 		background-position: center center;
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 		box-shadow: 0 0.25em 0.5em 0 rgba(219, 17, 17, 0.25);
 		min-height: 100vh;
