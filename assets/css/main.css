@@ -16,6 +16,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	cursor: url(../../images/cursorPage.svg), auto;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -2859,7 +2860,7 @@ input, select, textarea {
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
 		color: #ffffff !important;
-		cursor: pointer;
+		/*cursor: pointer;*/
 		display: inline-block;
 		font-weight: 300;
 		height: 3em;
@@ -3506,9 +3507,9 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgb(50 53 84 / 95%), rgb(99 99 104 / 95%)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgb(50 53 84 / 95%), rgb(99 99 104 / 95%)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgb(50 53 84 / 95%), rgb(99 99 104 / 95%)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgb(79 81 94 / 95%), rgb(29 30 33 / 95%)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgb(79 81 94 / 95%), rgb(29 30 33 / 95%)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgb(79 81 94 / 95%), rgb(29 30 33 / 95%)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
