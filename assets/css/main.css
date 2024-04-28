@@ -570,7 +570,7 @@ input, select, textarea {
 			transform-origin: 50% 50%;
 			color: rgba(255, 255, 255, 0.15);
 			content: '\f1ce';
-			cursor: default;
+/* 			cursor: default; */
 			display: block;
 			font-size: 2em;
 			height: 2em;
@@ -2317,7 +2317,7 @@ input, select, textarea {
 		input[type="radio"] + label {
 			text-decoration: none;
 			color: rgba(255, 255, 255, 0.75);
-			cursor: pointer;
+/* 			cursor: pointer; */
 			display: inline-block;
 			font-size: 1em;
 			font-weight: 100;
@@ -2479,7 +2479,7 @@ input, select, textarea {
 		.icon.major {
 			background: #272833;
 			border-radius: 100%;
-			cursor: default;
+/* 			cursor: default; */
 			display: inline-block;
 			height: 6em;
 			line-height: 5.65em;
@@ -2619,7 +2619,7 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
-		cursor: default;
+/* 		cursor: default; */
 		list-style: none;
 		padding-left: 0;
 	}
@@ -2646,7 +2646,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		cursor: default;
+/* 		cursor: default; */
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
@@ -2950,7 +2950,7 @@ input, select, textarea {
 			background-color: rgba(255, 255, 255, 0.3) !important;
 			box-shadow: none !important;
 			color: #ffffff !important;
-			cursor: default;
+/* 			cursor: default; */
 			opacity: 0.25;
 		}
 
@@ -3405,7 +3405,7 @@ input, select, textarea {
 		margin-top: 20px;
 		background: rgba(39, 40, 51, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
-		cursor: default;
+/* 		cursor: default; */
 		height: 3.5em;
 		line-height: 3.5em;
 		left: 0;
