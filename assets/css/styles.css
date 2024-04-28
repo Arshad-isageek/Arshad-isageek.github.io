@@ -1,3 +1,7 @@
+html {
+	cursor: url(../../images/cursorPage1.svg), auto;
+}
+
 body {
     color: #f3fcf7;
     font-weight: 700;
